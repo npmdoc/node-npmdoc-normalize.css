@@ -1,11 +1,13 @@
 # api documentation for  [normalize.css (v6.0.0)](https://necolas.github.io/normalize.css)  [![npm package](https://img.shields.io/npm/v/npmdoc-normalize.css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-normalize.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-normalize.css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-normalize.css)
 #### A modern alternative to CSS resets
 
-[![NPM](https://nodei.co/npm/normalize.css.png?downloads=true)](https://www.npmjs.com/package/normalize.css)
+[![NPM](https://nodei.co/npm/normalize.css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/normalize.css)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-normalize.css/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-normalize.css_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-normalize.css/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-normalize.css/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-normalize.css/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-normalize.css/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-normalize.css/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-normalize.css/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
@@ -20,12 +22,10 @@
     "contributors": [
         {
             "name": "Jonathan Neal",
-            "email": "jonathantneal@hotmail.com",
             "url": "http://jonathantneal.com/"
         },
         {
             "name": "Nicolas Gallagher",
-            "email": "nicolas@nicolasgallagher.com",
             "url": "http://nicolasgallagher.com/"
         }
     ],
@@ -50,21 +50,17 @@
     "main": "normalize.css",
     "maintainers": [
         {
-            "name": "jonathantneal",
-            "email": "jonathantneal@hotmail.com"
+            "name": "jonathantneal"
         },
         {
-            "name": "necolas",
-            "email": "nicolasgallagher@gmail.com"
+            "name": "necolas"
         },
         {
-            "name": "tjholowaychuk",
-            "email": "tj@vision-media.ca"
+            "name": "tjholowaychuk"
         }
     ],
     "name": "normalize.css",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/necolas/normalize.css.git"
