@@ -1,9 +1,14 @@
-# api documentation for  [normalize.css (v6.0.0)](https://necolas.github.io/normalize.css)  [![npm package](https://img.shields.io/npm/v/npmdoc-normalize.css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-normalize.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-normalize.css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-normalize.css)
+# npmdoc-normalize.css
+
+#### api documentation for  [normalize.css (v6.0.0)](https://necolas.github.io/normalize.css)  [![npm package](https://img.shields.io/npm/v/npmdoc-normalize.css.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-normalize.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-normalize.css.svg)](https://travis-ci.org/npmdoc/node-npmdoc-normalize.css)
+
 #### A modern alternative to CSS resets
 
 [![NPM](https://nodei.co/npm/normalize.css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/normalize.css)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-normalize.css/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-normalize.css/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-normalize.css/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-normalize.css/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-normalize.css/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-normalize.css/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-normalize.css/build/screenCapture.npmPackageListing.svg)
 
@@ -16,59 +21,30 @@
 ```json
 
 {
-    "bugs": {
-        "url": "https://github.com/necolas/normalize.css/issues"
-    },
-    "contributors": [
-        {
-            "name": "Jonathan Neal",
-            "url": "http://jonathantneal.com/"
-        },
-        {
-            "name": "Nicolas Gallagher",
-            "url": "http://nicolasgallagher.com/"
-        }
-    ],
-    "dependencies": {},
+    "name": "normalize.css",
+    "version": "6.0.0",
     "description": "A modern alternative to CSS resets",
-    "devDependencies": {
-        "stylelint": "^7.9.0",
-        "stylelint-config-standard": "^16.0.0"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "22188c2707c911fb3ad3c1aac0677ff68661bea8",
-        "tarball": "https://registry.npmjs.org/normalize.css/-/normalize.css-6.0.0.tgz"
-    },
+    "main": "normalize.css",
+    "style": "normalize.css",
     "files": [
         "LICENSE.md",
         "normalize.css"
     ],
-    "gitHead": "91f668be643185dd7b08f122ccee0df711d237c0",
-    "homepage": "https://necolas.github.io/normalize.css",
-    "license": "MIT",
-    "main": "normalize.css",
-    "maintainers": [
-        {
-            "name": "jonathantneal"
-        },
-        {
-            "name": "necolas"
-        },
-        {
-            "name": "tjholowaychuk"
-        }
-    ],
-    "name": "normalize.css",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/necolas/normalize.css.git"
+    "devDependencies": {
+        "stylelint": "^7.9.0",
+        "stylelint-config-standard": "^16.0.0"
     },
     "scripts": {
         "test": "stylelint normalize.css"
     },
-    "style": "normalize.css",
+    "repository": "necolas/normalize.css",
+    "contributors": [
+        "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com/)",
+        "Nicolas Gallagher <nicolas@nicolasgallagher.com> (http://nicolasgallagher.com/)"
+    ],
+    "license": "MIT",
+    "bugs": "https://github.com/necolas/normalize.css/issues",
+    "homepage": "https://necolas.github.io/normalize.css",
     "stylelint": {
         "extends": "stylelint-config-standard",
         "rules": {
@@ -82,19 +58,9 @@
             ]
         }
     },
-    "version": "6.0.0"
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module normalize.css](#apidoc.module.normalize.css)
-
-
-
-# <a name="apidoc.module.normalize.css"></a>[module normalize.css](#apidoc.module.normalize.css)
 
 
 
